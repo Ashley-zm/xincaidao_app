@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="60dp"
+    android:layout_margin="8dp"
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+    <ImageView
+        android:id="@+id/iv_head"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/ic_kehuunpressed"
+        />
+
+        <TextView
+            android:id="@+id/tv_nickName"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/iv_head"
+            android:text="大佬"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:layout_marginLeft="50dp"
+            />
+        <TextView
+            android:id="@+id/tv_content"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_nickName"
+            android:layout_toRightOf="@+id/iv_head"
+            android:layout_marginLeft="50dp"
+            android:textSize="15sp"
+            android:text="疫情大爆发，建议短空操作"
+            />
+
+    </RelativeLayout>
+
+
+
+</RelativeLayout>
